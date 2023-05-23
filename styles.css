@@ -33,6 +33,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: var(--dark);
+	max-width: 1000px;
 	width: 50%;
 	height: 100%;
 	border-radius: 50px;
