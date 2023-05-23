@@ -9,20 +9,23 @@
 	<link rel="stylesheet" href="styles.css" />
 </head>
 <body>	
-	<header>
-		<h1>Task List</h1>
-		<form id="new-task-form">
-			<input type="text" name="new-task-input" id="new-task-input" placeholder="Enter a task:" />
-			<input type="date" id="new-task-dueDate" value="">
-			<input type="submit" id="new-task-submit" value="Add task" />			
-		</form>
-	</header>
-	<main>
-		<section class="task-list">
-			<h2>Tasks</h2>
-			<div id="tasks">
-			</div>
-		</section>
-	</main>	
+	<div class="main-container">
+		<header>
+			<h1>Task List</h1>
+			<form id="new-task">
+				<input type="text" name="new-task-input" id="new-task-input" placeholder="Enter a task:" />
+				<input type="date" id="new-task-dueDate" value="">
+				<input type="submit" id="new-task-submit" value="Add task" />			
+			</form>
+		</header>
+		<main>
+			<section class="task-list">
+				<h2>Tasks</h2>
+				<div id="tasks">
+				</div>
+			</section>
+		</main>	
+	</div>
+	
 </body>
 </html>
